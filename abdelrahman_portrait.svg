@@ -1,0 +1,68 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#13131a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a24;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.3" />
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bg)"/>
+  
+  <!-- Glow Effect -->
+  <circle cx="250" cy="250" r="200" fill="url(#light)"/>
+  
+  <!-- Neural Network Pattern -->
+  <g opacity="0.2" stroke="#667eea" stroke-width="1" fill="none">
+    <circle cx="250" cy="250" r="180"/>
+    <circle cx="250" cy="250" r="140"/>
+    <circle cx="250" cy="250" r="100"/>
+    <line x1="250" y1="70" x2="250" y2="110"/>
+    <line x1="250" y1="390" x2="250" y2="430"/>
+    <line x1="70" y1="250" x2="110" y2="250"/>
+    <line x1="390" y1="250" x2="430" y2="250"/>
+  </g>
+  
+  <!-- Professional Silhouette -->
+  <g opacity="0.9">
+    <!-- Head -->
+    <ellipse cx="250" cy="200" rx="60" ry="70" fill="#2a2a3a"/>
+    
+    <!-- Shoulders/Body -->
+    <path d="M 180 270 Q 180 240 190 240 L 310 240 Q 320 240 320 270 L 340 400 Q 340 420 250 420 Q 160 420 160 400 Z" fill="#2a2a3a"/>
+    
+    <!-- Hair -->
+    <ellipse cx="250" cy="180" rx="65" ry="50" fill="#1a1a24"/>
+    
+    <!-- Face highlight -->
+    <ellipse cx="240" cy="190" rx="20" ry="30" fill="#667eea" opacity="0.1"/>
+  </g>
+  
+  <!-- Floating Code Elements -->
+  <g opacity="0.6" fill="none" stroke="#00d4ff" stroke-width="2">
+    <rect x="80" y="100" width="40" height="40" rx="5"/>
+    <polyline points="420,120 400,140 420,160"/>
+    <circle cx="100" cy="380" r="20"/>
+    <polygon points="400,350 420,380 400,410 380,380"/>
+  </g>
+  
+  <!-- AI Symbol -->
+  <g transform="translate(370, 220)" opacity="0.5">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#764ba2" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#764ba2"/>
+    <line x1="-10" y1="-10" x2="10" y2="10" stroke="#764ba2" stroke-width="2"/>
+    <line x1="-10" y1="10" x2="10" y2="-10" stroke="#764ba2" stroke-width="2"/>
+  </g>
+  
+  <!-- Text Elements -->
+  <text x="250" y="460" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="24" font-weight="bold">ABDELRAHMAN YASSER</text>
+  <text x="250" y="485" text-anchor="middle" fill="#764ba2" font-family="Arial, sans-serif" font-size="14">AI ENGINEER</text>
+</svg>
